@@ -5,10 +5,10 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
         - name: Verifica o repositório do Git
-          uses: actions/checkout@v2
+          uses: actions/checkout
 
         - name: Instala o node com a versão
-          uses: actions/setup-node@v1
+          uses: actions/setup-node
           with:
             node-version: 12
 
