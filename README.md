@@ -1,9 +1,21 @@
-# Boas vindas ao repositório backend do projeto de Deploy - Stranger Things!
+# Projeto de Deploy - Stranger Things
 
-Aqui você vai encontrar os locais para colocar suas repostas relativas aos requisitos de backend.
+## O que foi desenvolvido: 
 
-**Lembre-se**: coloque as respostas apenas dos requisitos que contém o seguinte direcionamento:
+* Criação do .env para controlar o modo "upsideDown";
 
-  - Adicione os comandos utilizados, de maneira sequencial, ao README do backend.
+* Configuração do arquivo Dockerfile;
 
-**Nota**: Este direcionamento está presente no [repositório](https://github.com/tryber/sd-019-stranger-things) em que os requisitos do projeto são destrinchados.
+* Criação e configuração do arquivo heroku.yml;
+
+* Criação de Action para ser executada somente em **pull_requests**
+    -  O arquivo de configuração da action está em: ./actions/ com o nome project.yml.
+
+Importante: Os arquivos "data", "service" e "index.js" foram disponibilados pela Trybe.
+
+
+
+## Tecnologias utilizadas:
+
+![DOCKER](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
+![Heroku](https://img.shields.io/badge/-HEROKU-purple?style=for-the-badge&logo=Heroku&logoColor=white)
