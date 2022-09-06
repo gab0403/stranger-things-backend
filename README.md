@@ -1,4 +1,4 @@
-# Projeto de Deploy - Stranger Things
+# Projeto de Deploy - Stranger Things Back-end
 
 ## O que foi desenvolvido: 
 
